@@ -16,7 +16,7 @@ function AddFile() {
     }
 
     try {
-      await axios.post("http://localhost:5000/add", {
+      await axios.post("https://claspp.onrender.com/add", {
         filename: fileName,
         content: fileContent
       });
