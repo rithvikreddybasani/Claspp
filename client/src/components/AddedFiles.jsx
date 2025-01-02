@@ -11,7 +11,7 @@ const AddedFiles = () => {
   useEffect(() => {
     const fetchFiles = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/addedFiles');
+        const response = await axios.get('https://claspp.onrender.com/addedFiles');
         setFiles(response.data);
       } catch (error) {
         setError('Error fetching added files.');
