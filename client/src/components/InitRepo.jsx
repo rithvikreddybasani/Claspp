@@ -6,7 +6,7 @@ import GitButton from '../common/GitButton';
 function InitRepo() {
   const handleInit = async () => {
     try {
-      await axios.post("http://localhost:5000/init");
+      await axios.post("https://claspp.onrender.com/init");
       alert("Repository Initialized!");
     } catch (error) {
       alert("Error initializing repository");
