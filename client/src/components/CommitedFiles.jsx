@@ -11,7 +11,7 @@ const CommitedFiles = () => {
   useEffect(() => {
     const fetchFiles = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/commitedFiles');
+        const response = await axios.get('https://claspp.onrender.com/commitedFiles');
         setFiles(response.data);
       } catch (error) {
         setError('Error fetching committed files.');
