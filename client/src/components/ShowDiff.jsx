@@ -21,7 +21,7 @@ function ShowDiff() {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.get(`http://localhost:5000/show/${hash}`);
+      const response = await axios.get(`https://claspp.onrender.com/show/${hash}`);
       setDiff(response.data);
     } catch (err) {
       setError("Error fetching diff.");
