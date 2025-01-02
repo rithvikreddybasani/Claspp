@@ -14,7 +14,7 @@ function CommitChanges() {
     }
 
     try {
-      await axios.post("http://localhost:5000/commit", { message });
+      await axios.post("https://claspp.onrender.com/commit", { message });
       alert("Commit Successful!");
       setMessage("");
     } catch (error) {
