@@ -6,8 +6,12 @@ const path = require('path');
 const fs = require('fs');
 const app = express();
 const port = 5000;
-
-app.use(cors());
+const corsConfig={
+    origin:"*",
+    Credential:true,
+    methods:["GET","POST","PUT","DELETE"],
+};
+app.use(cors(corsConfig))
 app.use(bodyParser.json());
 
 // Initialize the repository
