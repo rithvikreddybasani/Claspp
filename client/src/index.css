@@ -1,0 +1,13 @@
+/* index.css */
+
+body {
+  background-color: #333;  /* Set the background color to gray */
+  margin: 0;               /* Remove default margin */
+  font-family: 'Arial', sans-serif;  /* Optional: Adjust font */
+  height: 100vh;           /* Ensure the body takes up the full height of the viewport */
+  color: white;            /* Make the text color white for visibility */
+}
+
+#root {
+  height: 100%;            /* Ensure the root div fills the entire height */
+}
