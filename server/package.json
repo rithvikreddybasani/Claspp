@@ -1,0 +1,23 @@
+{
+  "name": "gitcloneclamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
+    "commander": "^12.1.0",
+    "cors": "^2.8.5",
+    "diff": "^5.2.0",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
